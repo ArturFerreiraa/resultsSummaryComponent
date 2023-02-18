@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'Hanken Grotesk';
+    src: url(../fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Hanken Grotesk';
+}
+
+#container {
+    display: flex;
+    max-width: 550px;
+    height: 360px;
+    margin: 20vh auto;
+    border-radius: 20px;
+    box-shadow: 1px 1px 25px #0000005a;
+    background-color: white;
+}
+
+#result-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    font-size: .8em;
+    color: #dddfff;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #6844ff, #332eeb);
+}
+
+#result-section h1 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+#result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 140px;
+    margin-bottom: 20px;
+    font-weight: 200;
+    text-align: center;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #4b20c4, #4734ee);
+}
+
+#result-number {
+    font-size: 3.4em;
+    font-weight: 800;
+    color: white;
+}
+
+#result-description {
+    text-align: center;
+    font-weight: 300;
+    padding: 0 30px;
+}
+
+#result-description h2 {
+    font-size: 1.6em;
+    padding-bottom: 10px;
+}
+
+#summary-section {
+    width: 55%;
+    margin: 12px 0 0 35px;
+}
+
+#summary-section h2 {
+    font-size: 1.2em;
+    text-align: left;
+    padding: 10px 0;
+    color: #303b59;
+}
+
+#summary-section .summary-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    height: 45px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.summary-card h3 {
+    font-size: 1em;
+    font-weight: 500;
+    margin-left: -80px;
+}
+
+.summary-card p {
+    color: #ababab;
+}
+
+.summary-card .bold {
+    font-weight: bold;
+    color: #000;
+}
+
+#summary-section #reaction {
+    background-color: #fff6f5;
+}
+
+#summary-section #reaction h3 {
+    color: #cc3d45;
+}
+
+#summary-section #memory {
+    background-color: #fffbf2;
+}
+
+#summary-section #memory h3 {
+    color: #d9a64f;
+}
+
+#summary-section #verbal {
+    background-color: #f2fafa;
+}
+
+#summary-section #verbal h3 {
+    color: #009270;
+    margin-left: -90px;
+}
+
+#summary-section #visual {
+    background-color: #f3f3fd;
+}
+
+#summary-section #visual svg {
+    margin-left: 2px;
+}
+
+#summary-section #visual h3 {
+    color: #030e78;
+    margin-left: -95px;
+}
+
+#continue-button {
+    width: 250px;
+    height: 45px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #303b59;
+}
+
+#continue-button:hover {
+    cursor: pointer;
+    background: linear-gradient(to bottom, #6844ff, #332eeb);
+}
